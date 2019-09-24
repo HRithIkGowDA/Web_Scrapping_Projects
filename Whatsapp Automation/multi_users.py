@@ -1,9 +1,9 @@
-from selenium import webdriver
+from selenium import webdriver 
 
 driver = webdriver.Chrome()
 driver.get('https://web.whatsapp.com/')
 
-all_names = ['Hack', 'Me', 'Bot']
+all_names = ['Hey', 'Me', 'Bot']
 msg = 'Good Morning'
 count = 3
 
